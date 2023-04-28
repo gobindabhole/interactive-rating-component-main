@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SUBMIT</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+      }
+      #container {
+        justify-content: center;
+        height: 400px;
+        width: 450px;
+        background-color: rgb(65, 71, 71);
+        margin-top: 150px;
+        margin-left: 450px;
+        border: 1px solid rgb(91, 87, 87);
+        border-radius: 30px;
+      }
+
+      #img_star {
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+      #hading {
+        margin-left: 8px;
+      }
+      #sub-hading {
+        margin-left: 8px;
+      }
+      .row {
+        display: flex;
+        justify-content: space-around;
+        border: 1px;
+      }
+      .R_button {
+        border-radius: 50px;
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+        background-color: rgb(144, 141, 141);
+      }
+      .R_button:hover {
+        background-color: goldenrod;
+      }
+      .SUM_b {
+        margin-top: 30px;
+        margin-left: 28%;
+        font-size: xx-large;
+        border-radius: 20px;
+        width: 200px;
+        justify-content: center;
+        color: gold;
+        background-color: rgb(139, 137, 135);
+        text-justify: auto;
+        text-decoration: none;
+      }
+      .SUM_b:hover {
+        background-color: white;
+        box-shadow: 5px 2px 2px white;
+      }
+      .int {
+        text-decoration: none;
+        color: gold;
+      }
+      .active1 {
+        background-color: azure;
+      }
+      .active2 {
+        background-color: azure;
+      }
+      .active3 {
+        background-color: azure;
+      }
+      .active4 {
+        background-color: azure;
+      }
+      .active5 {
+        background-color: azure;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <header id="img_star">
+        <img src="images/icon-star.svg" alt="icon-star" />
+      </header>
+      <main>
+        <h1 id="hading">How did we do?</h1>
+        <h3 id="sub-hading">
+          please let us know how we did with your support request.All feedback
+          is appreciated to help us improve our offering!
+        </h3>
+      </main>
+      <div class="row" id="row1">
+        <button class="R_button" id="row1.1">1</button>
+        <button class="R_button" id="row1.2">2</button>
+        <button class="R_button" id="row1.3">3</button>
+        <button class="R_button" id="row1.4">4</button>
+        <button class="R_button" id="row1.5">5</button>
+      </div>
+      <button onclick="nextPage()" class="SUM_b">SUBMIT</button>
+    </div>
+    <script src="sumbitbutton.js"></script>
+  </body>
+</html>
